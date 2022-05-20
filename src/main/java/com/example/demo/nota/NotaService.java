@@ -99,10 +99,10 @@ public class NotaService {
         final var nota = new Nota[1];
 
         try {
-            notasJson.forEach((notaJson) -> {
+            for (RequestNotaJson notaJson : notasJson) {
                 nota[0] = this.updateNota(notaJson.getNota(),
                         notaJson.getId());
-            });
+            }
             return nota[0].getModulo();
         } catch (IllegalStateException e) {
             throw new ExcepcionServicio(e.getMessage());
