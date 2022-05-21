@@ -53,6 +53,7 @@ public class AppUser implements UserDetails {
     @Column(columnDefinition = "boolean default true")
     private boolean enabled;
 
+
     public AppUser(String email, String username, String password, UserRole role, List<SimpleGrantedAuthority> authorities, boolean accountNonExpired, boolean accountNonLocked, boolean credentialsNonExpired, boolean enabled) {
         this.email = email;
         this.username = username;
