@@ -1,6 +1,6 @@
 package com.example.demo.user;
 
-import com.example.demo.enums.Sexo;
+import com.example.demo.email.enums.Sexo;
 import lombok.*;
 
 import java.time.LocalDate;

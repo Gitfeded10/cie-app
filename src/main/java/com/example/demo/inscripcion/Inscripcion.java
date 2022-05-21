@@ -1,9 +1,6 @@
 package com.example.demo.inscripcion;
 
-import com.example.demo.alumno.AlumnoApp;
-import com.example.demo.curso.Curso;
-import com.example.demo.enums.Turno;
-import com.example.demo.user.AppUser;
+import com.example.demo.email.enums.Turno;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

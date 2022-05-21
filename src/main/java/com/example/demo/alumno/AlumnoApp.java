@@ -1,8 +1,7 @@
 package com.example.demo.alumno;
 
 import com.example.demo.curso.Curso;
-import com.example.demo.enums.Sexo;
-import com.example.demo.enums.UserRole;
+import com.example.demo.email.enums.Sexo;
 import com.example.demo.nota.Nota;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;

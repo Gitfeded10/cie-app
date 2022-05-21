@@ -1,9 +1,7 @@
 package com.example.demo.curso;
 
-import com.example.demo.enums.Categoria;
-import com.example.demo.enums.CursoLista;
-import com.example.demo.enums.Duracion;
-import com.example.demo.modulo.Modulo;
+import com.example.demo.email.enums.Categoria;
+import com.example.demo.email.enums.Duracion;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 

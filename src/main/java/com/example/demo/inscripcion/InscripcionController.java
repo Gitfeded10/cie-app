@@ -1,22 +1,17 @@
 package com.example.demo.inscripcion;
 
 import com.example.demo.comision.Comision;
-import com.example.demo.curso.Curso;
 import com.example.demo.curso.CursoService;
-import com.example.demo.enums.Turno;
+import com.example.demo.email.enums.Turno;
 import com.example.demo.excepciones.ExcepcionServicio;
-import com.example.demo.user.AppUser;
-import com.example.demo.user.UserService;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 

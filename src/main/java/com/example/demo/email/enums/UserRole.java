@@ -1,4 +1,4 @@
-package com.example.demo.enums;
+package com.example.demo.email.enums;
 
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

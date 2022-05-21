@@ -1,14 +1,13 @@
 package com.example.demo.admin;
 
-import com.example.demo.enums.Sexo;
-import com.example.demo.enums.UserRole;
+import com.example.demo.email.enums.Sexo;
 import com.example.demo.user.AppUser;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 import java.util.Optional;
 
-import static com.example.demo.enums.UserRole.ADMIN;
+import static com.example.demo.email.enums.UserRole.ADMIN;
 import static java.time.LocalDate.*;
 
 @Service

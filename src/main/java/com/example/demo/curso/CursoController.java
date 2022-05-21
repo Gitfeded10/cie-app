@@ -1,6 +1,5 @@
 package com.example.demo.curso;
 
-import com.example.demo.enums.CursoLista;
 import com.example.demo.excepciones.ExcepcionServicio;
 import lombok.AllArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;

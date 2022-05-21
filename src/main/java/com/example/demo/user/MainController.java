@@ -11,7 +11,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpSession;
 
-import static com.example.demo.enums.UserRole.*;
+import static com.example.demo.email.enums.UserRole.*;
 
 @Controller
 @AllArgsConstructor

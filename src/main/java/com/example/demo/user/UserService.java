@@ -3,7 +3,10 @@ package com.example.demo.user;
 import com.example.demo.admin.AdminApp;
 import com.example.demo.alumno.AlumnoApp;
 import com.example.demo.curso.CursoRepository;
-import com.example.demo.curso.CursoService;
+import com.example.demo.email.enums.Duracion;
+import com.example.demo.email.enums.EstadoNota;
+import com.example.demo.email.enums.Sexo;
+import com.example.demo.email.enums.Turno;
 import com.example.demo.enums.*;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.security.PasswordConfig;
@@ -20,20 +23,13 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.servlet.http.HttpSession;
 import javax.transaction.Transactional;
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.Year;
-import java.time.temporal.TemporalField;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
-import java.util.stream.IntStream;
 
-import static com.example.demo.enums.UserRole.*;
+import static com.example.demo.email.enums.UserRole.*;
 import static java.time.LocalDate.now;
-import static java.util.stream.IntStream.*;
 
 @Service
 @AllArgsConstructor

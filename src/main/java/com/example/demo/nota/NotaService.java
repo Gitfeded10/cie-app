@@ -1,17 +1,14 @@
 package com.example.demo.nota;
 
-import com.example.demo.alumno.AlumnoApp;
 import com.example.demo.alumno.AlumnoRepository;
-import com.example.demo.alumno.AlumnoService;
-import com.example.demo.enums.EstadoNota;
-import com.example.demo.enums.Turno;
+import com.example.demo.email.enums.EstadoNota;
+import com.example.demo.email.enums.Turno;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.modulo.Modulo;
 import com.example.demo.modulo.ModuloService;
 import com.example.demo.user.AppUser;
 import com.example.demo.user.UserService;
 import lombok.AllArgsConstructor;
-import org.springframework.expression.spel.SpelEvaluationException;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -20,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static com.example.demo.enums.EstadoNota.*;
+import static com.example.demo.email.enums.EstadoNota.*;
 import static java.time.LocalDate.*;
 
 @Service

@@ -1,7 +1,7 @@
 package com.example.demo.nota;
 
-import com.example.demo.enums.EstadoNota;
-import com.example.demo.enums.Turno;
+import com.example.demo.email.enums.EstadoNota;
+import com.example.demo.email.enums.Turno;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

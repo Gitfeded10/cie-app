@@ -2,7 +2,7 @@ package com.example.demo.admin;
 
 import com.example.demo.curso.Curso;
 import com.example.demo.curso.CursoService;
-import com.example.demo.enums.Sexo;
+import com.example.demo.email.enums.Sexo;
 import com.example.demo.excepciones.ExcepcionControlador;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.modulo.Modulo;

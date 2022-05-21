@@ -1,10 +1,9 @@
 package com.example.demo.nota;
 
-import com.example.demo.alumno.AlumnoApp;
 import com.example.demo.comision.Comision;
 import com.example.demo.curso.Curso;
-import com.example.demo.enums.EstadoNota;
-import com.example.demo.enums.Turno;
+import com.example.demo.email.enums.EstadoNota;
+import com.example.demo.email.enums.Turno;
 import com.example.demo.modulo.Modulo;
 import com.example.demo.user.AppUser;
 import lombok.*;
@@ -12,7 +11,6 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.List;
 
 import static javax.persistence.EnumType.*;
 

@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import static com.example.demo.enums.EstadoNota.*;
+import static com.example.demo.email.enums.EstadoNota.*;
 import static java.time.LocalDate.*;
 
 @Service

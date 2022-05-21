@@ -2,23 +2,16 @@ package com.example.demo.nota;
 
 import com.example.demo.curso.Curso;
 import com.example.demo.curso.CursoService;
-import com.example.demo.enums.EstadoNota;
-import com.example.demo.enums.Turno;
 import com.example.demo.excepciones.ExcepcionControlador;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.modulo.Modulo;
 import com.example.demo.modulo.ModuloService;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.springframework.expression.spel.SpelEvaluationException;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.EntityManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
