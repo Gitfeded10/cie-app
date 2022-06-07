@@ -1,8 +1,8 @@
 package com.example.demo.nota;
 
 import com.example.demo.alumno.AlumnoRepository;
-import com.example.demo.email.enums.EstadoNota;
-import com.example.demo.email.enums.Turno;
+import com.example.demo.enums.EstadoNota;
+import com.example.demo.enums.Turno;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.modulo.Modulo;
 import com.example.demo.modulo.ModuloService;
@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import static com.example.demo.email.enums.EstadoNota.*;
+import static com.example.demo.enums.EstadoNota.*;
 import static java.time.LocalDate.*;
 
 @Service

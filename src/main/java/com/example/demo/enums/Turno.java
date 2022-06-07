@@ -1,4 +1,4 @@
-package com.example.demo.email.enums;
+package com.example.demo.enums;
 
 public enum Turno {
     TURNO_MANANA, TURNO_TARDE, TURNO_VERSPERTINO;

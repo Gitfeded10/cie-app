@@ -2,7 +2,7 @@ package com.example.demo.user;
 
 import com.example.demo.admin.AdminApp;
 import com.example.demo.alumno.AlumnoApp;
-import com.example.demo.email.enums.UserRole;
+import com.example.demo.enums.UserRole;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,7 +17,7 @@ import java.util.List;
 
 import static javax.persistence.EnumType.*;
 
-
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
@@ -50,9 +50,6 @@ public class AppUser implements UserDetails {
     @Column(columnDefinition = "boolean default true")
     private boolean enabled;
 
-    public AppUser () {
-
-    }
 
     public AppUser(String email, String username, String password, UserRole role, List<SimpleGrantedAuthority> authorities, boolean accountNonExpired, boolean accountNonLocked, boolean credentialsNonExpired, boolean enabled) {
         this.email = email;

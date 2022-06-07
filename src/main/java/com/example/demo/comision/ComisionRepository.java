@@ -1,7 +1,7 @@
 package com.example.demo.comision;
 
 import com.example.demo.curso.Curso;
-import com.example.demo.email.enums.Turno;
+import com.example.demo.enums.Turno;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

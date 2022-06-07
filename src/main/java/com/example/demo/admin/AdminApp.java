@@ -1,7 +1,7 @@
 package com.example.demo.admin;
 
-import com.example.demo.email.enums.Sexo;
-import com.example.demo.email.enums.UserRole;
+import com.example.demo.enums.Sexo;
+import com.example.demo.enums.UserRole;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 

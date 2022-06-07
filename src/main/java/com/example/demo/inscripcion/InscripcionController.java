@@ -2,7 +2,7 @@ package com.example.demo.inscripcion;
 
 import com.example.demo.comision.Comision;
 import com.example.demo.curso.CursoService;
-import com.example.demo.email.enums.Turno;
+import com.example.demo.enums.Turno;
 import com.example.demo.excepciones.ExcepcionServicio;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

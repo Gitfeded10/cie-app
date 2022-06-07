@@ -4,7 +4,7 @@ import com.example.demo.comision.Comision;
 import com.example.demo.comision.ComisionRepository;
 import com.example.demo.curso.Curso;
 import com.example.demo.curso.CursoService;
-import com.example.demo.email.enums.Turno;
+import com.example.demo.enums.Turno;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.modulo.ModuloService;
 import com.example.demo.nota.Nota;

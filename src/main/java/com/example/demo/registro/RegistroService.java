@@ -2,15 +2,13 @@ package com.example.demo.registro;
 
 import com.example.demo.alumno.AlumnoApp;
 import com.example.demo.alumno.AlumnoService;
-import com.example.demo.creacion.CreacionService;
+import com.example.demo.curso.CreacionService;
 import com.example.demo.email.EmailService;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.user.AppUser;
 import com.example.demo.user.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import javax.mail.MessagingException;
 
 @Service
 @AllArgsConstructor

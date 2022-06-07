@@ -3,11 +3,10 @@ package com.example.demo.user;
 import com.example.demo.admin.AdminApp;
 import com.example.demo.alumno.AlumnoApp;
 import com.example.demo.curso.CursoRepository;
-import com.example.demo.email.enums.Duracion;
-import com.example.demo.email.enums.EstadoNota;
-import com.example.demo.email.enums.Sexo;
-import com.example.demo.email.enums.Turno;
-import com.example.demo.enums.*;
+import com.example.demo.enums.Duracion;
+import com.example.demo.enums.EstadoNota;
+import com.example.demo.enums.Sexo;
+import com.example.demo.enums.Turno;
 import com.example.demo.excepciones.ExcepcionServicio;
 import com.example.demo.security.PasswordConfig;
 import lombok.AllArgsConstructor;
@@ -28,7 +27,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import static com.example.demo.email.enums.UserRole.*;
+import static com.example.demo.enums.UserRole.*;
 import static java.time.LocalDate.now;
 
 @Service

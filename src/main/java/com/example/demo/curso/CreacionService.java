@@ -1,5 +1,7 @@
-package com.example.demo.creacion;
+package com.example.demo.curso;
 
+import com.example.demo.creacion.Creacion;
+import com.example.demo.creacion.CreacionRepository;
 import com.example.demo.user.AppUser;
 import com.example.demo.user.UserService;
 import lombok.AllArgsConstructor;

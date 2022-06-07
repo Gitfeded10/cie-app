@@ -1,6 +1,6 @@
 package com.example.demo.user;
 
-import com.example.demo.email.enums.UserRole;
+import com.example.demo.enums.UserRole;
 import com.example.demo.excepciones.ExcepcionServicio;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;

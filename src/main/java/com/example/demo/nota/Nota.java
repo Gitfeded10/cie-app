@@ -2,8 +2,8 @@ package com.example.demo.nota;
 
 import com.example.demo.comision.Comision;
 import com.example.demo.curso.Curso;
-import com.example.demo.email.enums.EstadoNota;
-import com.example.demo.email.enums.Turno;
+import com.example.demo.enums.EstadoNota;
+import com.example.demo.enums.Turno;
 import com.example.demo.modulo.Modulo;
 import com.example.demo.user.AppUser;
 import lombok.*;
