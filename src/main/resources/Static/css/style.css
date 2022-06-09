@@ -36,7 +36,7 @@ text-align: center;
 
 }
 
-/* BORDE EN PLANTILLA MODULOS*/
+
 section.borde1 {
   border-radius: 15px;
     background-color: beige;
@@ -47,14 +47,14 @@ section.borde1 {
     }
  
 
-/*IMAGEN CIE*/
+
 header img{
 padding: 10px;
 margin: 20px auto;
 display: block;
 }
 
-/*ESTILO LOGIN GRAL*/
+
 section.usuario form {
     max-width: 400px;
     margin: auto;
@@ -64,7 +64,7 @@ section.usuario form {
     align-items: center;
     font-size: 15px;  
 }
-/*ESTILO INPUTS LOGIN*/
+
 input {
 border-radius: 5px;
 width: 250px;
@@ -72,7 +72,7 @@ height: 25px;
 margin: auto;
 }
 
-/*BUTTON INGRESAR*/
+
 button.ingresar{
 background-color: rgb(138, 139, 139);
 margin: auto;
@@ -85,7 +85,7 @@ color: rgb(250, 250, 253);
 border: 1px solid #555555;
 }
 
-/*PIE DE PAGINAS*/
+
 footer {
 display: flex;  
 flex-wrap: nowrap;
@@ -104,7 +104,7 @@ footer h4{
   }
  
 
-/*LINK DE FOOTER*/
+
    footer a:link {
      font-size: 12px;
         text-decoration: none;
@@ -128,7 +128,7 @@ footer h4{
       }
 
 
-      /*TABLA MODULOS*/
+
   .tablamodulos  {
 
         margin: 50px;
@@ -169,7 +169,7 @@ footer h4{
         color: white;
       }
 
-      /*selector de curso - desplegale*/
+
 
       .selecto {
       
@@ -179,7 +179,7 @@ footer h4{
       padding: 5px 15px;
       text-align: center;
       }
-      /*desplegable*/
+
 
       .OS {
         padding: 10px 15px;
@@ -337,7 +337,7 @@ margin: auto;
  
 }
 
-/*****BOTON EDITAR ALUMNO*/
+
 button.cerrar3 {
       
   margin: 10px;
@@ -354,7 +354,7 @@ button.cerrar3 {
   background:#585858;
 }
 
-/*****BOTON guardar nota ALUMNO*/
+
 button.cerrar4 {
   position: absolute;
   right:    100px;
