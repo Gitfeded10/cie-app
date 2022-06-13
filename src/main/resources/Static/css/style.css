@@ -1,7 +1,5 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
-
 
 html, body{
     font-family: 'Roboto', sans-serif;
@@ -133,8 +131,6 @@ footer h4{
 
         margin: 50px;
        width: 700px;
-      
-      
        }
 
        .tablamodulos table {
