@@ -4,7 +4,7 @@
       xsi:schemaLocation="http://www.thymeleaf.org ">
 <head>
     <title>CIE</title>
-    <link th:href="@{.../css/style.css}" rel="stylesheet"/>
+    <link href="/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"/>
     <link rel="stylesheet" th:href="@{style.css}">
     <base href="/">
 
@@ -14,10 +14,9 @@
 
 <section class="borde">
     <header>
-        <img src=".../img/LOGO-CIE.png">
-
+        <img src="/img/LOGO-CIE.png">
     </header>
-    que ondara
+
     <h4>Gestion Administrador</h4>
     <section class="usuario">
         <form class="form" th:action="@{/login}" method="post">
