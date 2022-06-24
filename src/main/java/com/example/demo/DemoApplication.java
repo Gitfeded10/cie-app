@@ -8,7 +8,7 @@ import org.springframework.context.event.EventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import static java.time.LocalDate.now;
+
 import static java.util.stream.IntStream.iterate;
 
 @SpringBootApplication
